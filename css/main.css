@@ -11,3 +11,21 @@ body{
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+.hero{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px ;
+    background-color: var(--crayola-blue);
+    color: var(--bg-white);
+}
+.hero-img img{
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 500px;
+}
+.hero-text{
+    box-sizing: border-box;
+    padding: 1rem;
+}
