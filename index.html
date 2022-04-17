@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <script src="https://kit.fontawesome.com/df85f53c51.js" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -17,7 +18,19 @@
             <div class="nav-links">
                 <a href="#">Home</a>
                 <a href="#">Novedades</a>
-                <a href="#">Categorías</a>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Categorías</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#">Tecnología</a>
+                      <a href="#">Ciencia</a>
+                      <a href="#">Deporte</a>
+                      <a href="#">Economía</a>
+                      <a href="#">Sociedad</a>
+                      <a href="#">Mundo</a>
+                      <a href="#">Entretenimiento</a>
+                      <a href="#">Ver todas las categorías</a>
+                    </div>
+                  </div>
                 <a href="#">Libros</a>
             </div>
             <div class="nav-search">
@@ -42,5 +55,6 @@
             </div>
         </div>
     </main>
+    <script src="./js/index.js"></script>
 </body>
 </html>
