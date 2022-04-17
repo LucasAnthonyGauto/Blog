@@ -4,6 +4,7 @@
     --rich-black: #050609;
     --bg-white: #DDDDDF;
     --crayola-blue: #2176FF;
+    --max-width-px: 1440px;
 }
 
 body{
@@ -28,4 +29,26 @@ body{
 .hero-text{
     box-sizing: border-box;
     padding: 1rem;
+}
+header nav{
+    max-width: var(--max-width-px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    padding: .5rem;
+    transition: 250ms ease-in-out;
+}
+.nav-links a:hover{
+    color: var(--strong-pink);
+}
+.nav-logo{
+    height: 60px;
+}
+.nav-logo img{
+    height: 100%;
 }
