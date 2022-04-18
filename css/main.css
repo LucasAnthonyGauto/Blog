@@ -175,5 +175,6 @@ header nav{
     background-color: var(--strong-pink);
 }
 .card:nth-child(4n){
+    color: black;
     background-color: yellow;
 }
