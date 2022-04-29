@@ -14,167 +14,24 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-header{
-    margin-bottom: .5rem;
-    box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.15);
-    -webkit-box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.15);
-    -moz-box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.15);
-}
-header nav{
-    max-width: var(--max-width-px);
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav-links a, .dropdown{
-    display: inline;
-    text-decoration: none;
-    color: black;
-    padding: .5rem;
-    transition: 250ms ease-in-out;
-}
-.nav-links a:hover{
-    color: var(--strong-pink);
-}
-.nav-logo{
-    height: 60px;
-}
-.nav-logo img{
-    height: 100%;
-}
-
-
 .hero{
-    margin: 0 auto;
+    background-color: var(--crayola-blue);
+}
+.hero img{
+    width: 100%;
+}
+#hero-btn{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px ;
-    background-color: var(--crayola-blue);
-    color: var(--bg-white);
-    border-radius: .5rem;
-    box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.15);
-    -webkit-box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.15);
-    -moz-box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.15);
+    justify-content: flex-end;
 }
-.hero-img img{
-    vertical-align: middle;
-    max-width: 100%;
-    max-height: 900px;
-    border-radius: .5rem;
-}
-.hero-text{
-    padding: 1.1rem;
-}
-.link-wrapper{
-    padding: .5rem;
-    text-align: end;
-}
-.link-wrapper a{
-    color: white;
-    border: 1px solid white;
-    border-radius: .5rem;
-    margin: 2rem 0;
-    padding: .7rem;
-    text-decoration: none;
-    transition: 250ms ease-in-out;
-}
-.link-wrapper a:hover{
-    background-color: white;
-    color: #E7467C;
-}
-.hero-title{
-    font-family: 'Josefin Sans';
-    font-weight: 300;
-    text-transform: uppercase;
-}
-
-
-
-
-
-
-
-/* Dropdown Button */
-.dropbtn {
-    background-color: var(--bg-white);
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropbtn:hover, .dropbtn:focus{
-      color: var(--strong-pink);
-  }
-  /* Dropdown button on hover & focus */
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd}
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display:block;}
-
-
-
-
-
-
-
-
-
-.cards-container{
-    margin: 0 auto;
-    max-width: var(--max-width-px);
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
-.card{
-    max-width: 400px;
-    
-    margin: .5rem;
-    color: white;
-    background-color: var(--crayola-blue);
-}
-.card-title{
-    font-weight: 300;
-}
-.card-img-wrapper{
-    max-width: 100%;
-}
-.card-img-wrapper img{
-    max-width: 100%;
-}
-.card:nth-child(2n){
+#hero-btn button{
     background-color: var(--strong-pink);
+    padding: .5rem;
 }
-.card:nth-child(4n){
-    color: black;
-    background-color: yellow;
+
+
+.img-wrapper img{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
 }
