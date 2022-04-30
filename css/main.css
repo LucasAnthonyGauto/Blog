@@ -70,3 +70,17 @@ body{
     height: 200px;
     background-color: var(--crayola-blue)
 }
+.article img{
+    height: 500px;
+}
+.article-text{
+    white-space: pre-line;
+    line-height: 2rem;
+}
+.cite{
+    border-left: 1px solid black;
+    padding: 2rem
+}
+.italic{
+    font-style: italic;
+}
